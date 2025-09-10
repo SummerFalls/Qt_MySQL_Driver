@@ -4,6 +4,10 @@
 
 </div>
 
+## :warning: 注意
+
+批处理脚本所处的`路径当中不能含有中文或其它非 ASCII 字符`，否则会导致编译失败
+
 ## :book: 说明
 
 本仓库的 Qt MySQL 一键编译脚本，默认编译 `Windows MSVC2019 x64` 的 `qsqlmysql.dll`，其它编译器或架构体系请自行修改 bat 文件
